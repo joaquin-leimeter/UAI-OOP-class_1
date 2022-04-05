@@ -11,11 +11,6 @@ namespace class_1
             public int column;
             public string color;
 
-            // private fields/attributes
-            //private int row;
-            //private int column;
-            //private string color;
-
             //constructor
             public Knight(int initialRow, int initialColumn, string initialColor)
             {
@@ -24,10 +19,6 @@ namespace class_1
                 color = initialColor;
             }
 
-            //getters
-
-            //setters
-
             //methods
         }
         static void Main(string[] args)
@@ -35,6 +26,8 @@ namespace class_1
             Console.WriteLine("Hello World!");
             Knight knight1 = new Knight(4, 0, "black");
             Console.WriteLine(knight1.row);
+            Console.WriteLine(knight1.column);
+            Console.WriteLine(knight1.color);
         }
     }
 }
